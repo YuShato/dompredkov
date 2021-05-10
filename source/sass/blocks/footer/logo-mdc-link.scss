@@ -1,0 +1,27 @@
+.logo-mdc-link__img {
+  display: flex;
+  padding-top: 13px;
+
+  line-height: 0;
+
+  transition: opacity 0.3s;
+}
+
+.logo-mdc-link__img:hover,
+.logo-mdc-link__img:active {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1133px) {
+
+  .logo-mdc-link__img {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+
+  .logo-mdc-link__img {
+    padding-top: 20px;
+  }
+}

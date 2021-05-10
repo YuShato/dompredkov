@@ -1,0 +1,16 @@
+.copyright__description p {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 485px) {
+
+  .copyright__description p {
+    padding-top: 10px;
+
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

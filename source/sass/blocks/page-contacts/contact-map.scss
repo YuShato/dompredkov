@@ -1,0 +1,52 @@
+.contact-map__img {
+  position: relative;
+
+  overflow: hidden;
+}
+
+@media  screen and (max-width: 600px) {
+  .contact-map__img {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
+.contact-map__img iframe {
+  position: relative;
+
+  z-index: 2;
+  width: 1240px;
+  height: 603px;
+
+  border: none;
+  border-radius: 10px;
+}
+
+
+@media  screen and (max-width: 1450px) {
+  .contact-map__img iframe {
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width: 600px) {
+  .contact-map__img iframe {
+    border-radius: 0;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .contact-map__img iframe {
+    height: 393px;
+  }
+}
+
+.contact-map__img img {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  margin: 0;
+}

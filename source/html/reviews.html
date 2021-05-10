@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <include src="source/html/base/head.html"></include>
+  <title>Отзывы об услугах по родословной</title>
+
+</head>
+
+<body class="theme-summer">
+
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+
+  <div class="wrapper">
+    <include src="source/html/base/header.html"></include>
+
+    <main class="main-page">
+      <div class="main-page__wrapper">
+        <include src="source/html/components/services-menu.html"></include>
+        <h2 class="reviews-title">Отзывы о моей работе</h2>
+        <div class="reviews">
+          <div class="video-review">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/ecPqaDPZyOc"
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=//www.youtube.com/embed/ecPqaDPZyOc?autoplay=1><img src=//img.youtube.com/vi/ecPqaDPZyOc/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"></iframe>
+            <p>Услуги по генеалогии. Видео-отзыв Алексея </p>
+          </div>
+
+          <div class="reviews__video video-review">
+            <iframe width="560" height="315" src="//www.youtube.com/embed/6om5pK55oxk"
+              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=//www.youtube.com/embed/6om5pK55oxk?autoplay=1><img src=//img.youtube.com/vi/6om5pK55oxk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>"
+              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen title="The Dark Knight Rises: What Went Wrong? – Wisecrack Edition"></iframe>
+            <p>Дом предков отзывы. Видео-отзыв Игоря</p>
+          </div>
+        </div>
+        <button type="button" class="our-park__button review-button" data-micromodal-trigger="modal-1">
+          <a>Оставить заявку</a>
+        </button>
+      </div>
+
+  </div>
+  </main>
+
+  <include src="source/html/base/footer.html"></include>
+
+  <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container modal-map-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <include src="source/html/base/form.html"></include>
+        </main>
+        <button class="modal__btn" data-micromodal-close aria-label="Close this window">
+          <span class="modal__btn-inner"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

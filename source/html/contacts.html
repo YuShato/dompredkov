@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <include src="source/html/base/head.html"></include>
+  <title>Контакты</title>
+
+</head>
+
+<body class="theme-summer">
+
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+
+  <div class="wrapper">
+    <include src="source/html/base/header.html"></include>
+
+    <main>
+      <div class="wrapper-content">
+
+        <section class="contact">
+          <div class="contact__heading">
+            <h1>Контакты</h1>
+          </div>
+
+          <div class="contact__wrap">
+            <div class="contact__wrap-left">
+
+              <div class="contact-item">
+                <div class="contact-item__img">
+                  <svg class="contact-item__icon" width="52" height="52">
+                    <use xlink:href="#icon-tree"></use>
+                  </svg>
+                </div>
+
+                <div class="contact-item__heading">
+                  <h2>Мой блог на Яндекс.Дзен</h2>
+                </div>
+
+                <div class="contact-item__description">
+                  <a href="https://zen.yandex.ru/id/603ac525bc637e03c3d710da" target="blank">Читать статьи в моем блоге</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item__img">
+                  <svg class="contact-item__icon" width="21" height="20">
+                    <use xlink:href="#icon-bus"></use>
+                  </svg>
+                </div>
+
+                <div class="contact-item__heading">
+                  <h2>Мой профиль эксперта Яндекс.Кью</h2>
+                </div>
+
+                <div class="contact-item__description">
+                 <a href="https://yandex.ru/q/profile/Dompredkov/" target="blank">Читать ответы на вопросы о генеалогии</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact__wrap-right">
+              <div class="contact__wrap-top">
+
+                <div class="contact-item">
+                  <div class="contact-item__img">
+                    <svg class="contact-item__icon" width="18" height="20">
+                      <use xlink:href="#icon-house"></use>
+                    </svg>
+                  </div>
+
+                  <div class="contact-item__heading">
+                    <h2>Архивы</h2>
+                  </div>
+
+                  <div class="contact-item__description">
+                    <p>
+                      Работаю со всеми архивами России.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-item__img">
+                    <svg class="contact-item__icon" width="20" height="20">
+                      <use xlink:href="#icon-phone"></use>
+                    </svg>
+                  </div>
+
+                  <div class="contact-item__heading">
+                    <h2>Телефон</h2>
+                  </div>
+
+                  <ul class="contact-item__list">
+                    <li class="contact-item__item">
+                      <a href="tel:+79264953117">+7 926 495 31 17</a>
+                      <span></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="contact__wrap-bottom">
+                <div class="contact-item">
+                  <div class="contact-item__img">
+                    <svg class="contact-item__icon" width="20" height="21">
+                      <use xlink:href="#icon-email"></use>
+                    </svg>
+                  </div>
+
+                  <div class="contact-item__heading">
+                    <h2>Электронная почта</h2>
+                  </div>
+                  <div class="contact-item__item">
+                    <a href="mailto:dompredkov@yandex.ru">dompredkov@yandex.ru</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-item__social-block">
+                    <div class="contact-item__social-heading">
+                      <h2>Соцсети</h2>
+                    </div>
+
+
+                  </div>
+                  <include src="source/html/components/social-link-list.html" locals='{
+                    "class": "social-link-list--light"
+                    }'></include>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+
+        <div class="wrap-reception-and-form">
+          <section class="contact-reception">
+            <h2 class="visually-hidden">Наша Общественная приемная</h2>
+            <div class="contact-reception__instruction">
+              <span>От автора</span>
+              <p>
+                Главная задача моего проекта помочь исследователям в поисках своей родословной. На своем сайте я
+                размещаю материалы, которые помогут узнать историю своей семьи. Я очень стараюсь сделать по-настоящему
+                полезный ресурс для пользователя. Поэтому мне важно знать мнение посетителей моего сайта.
+              </p>
+              <p>
+                Если вы искали какую-либо информацию на сайте и не нашли, напишите пожалуйста мне в любую соцсеть. Или
+                отправьте заявку через форму на сайте. Расскажите, на какую тему вы хотели бы найти материалы или статью. Я обязательно учту ваши пожелания при написании следующих статей.
+              </p>
+
+              <div class="contact-reception__wrap-tables">
+                <table class="contact-reception__table">
+                  <tr>
+                    <th>Обычно я на связи</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span>Будни с 10 до 20</span>
+                      <span>Выходные с 11 до 19</span>
+                    </td>
+                  </tr>
+                </table>
+
+                <table class="contact-reception__table">
+                  <tr>
+                    <th>Оставить заявку</th>
+                  </tr>
+                  <td>
+                    <span>Вы можете в любое время. В среднем я отвечаю на заявки в течении часа.</span>
+                  </td>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact-form">
+            <form class="contact-form__form" action="" method="POST">
+              <div class="contact-form__heading">
+                <h2>Задайте мне вопрос онлайн</h2>
+              </div>
+
+              <div class="contact-form__field contact-form__field--name">
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" placeholder="" required>
+              </div>
+
+              <div class="contact-form__field">
+                <label for="e-mail">Эл. почта (для получения ответа)</label>
+                <input id="e-mail" type="email" name="e-mail" value="" placeholder="" required>
+              </div>
+
+              <div class="contact-form__question">
+                <label for="question">Вопрос</label>
+                <textarea id="question" name="question" placeholder="" required></textarea>
+              </div>
+
+              <button class="contact-form__button" id="btn" type="submit"
+                aria-label="Отправить"><span>Отправить</span></button>
+
+              <div class="contact-form__consent">
+                <span>Нажимая кнопку «Отправить», вы даёте</span>
+                <a href="#">согласие на обработку своих данных</a>
+              </div>
+            </form>
+          </section>
+        </div>
+
+      </div>
+    </main>
+
+    <include src="source/html/base/footer.html"></include>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

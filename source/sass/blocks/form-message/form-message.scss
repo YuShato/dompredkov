@@ -1,0 +1,31 @@
+.form-message .question-form__inner-hidden {
+  position: relative;
+  width: 56%;
+  padding-right: 75px;
+}
+
+@media  screen and (max-width: 900px) {
+  .form-message .question-form__inner-hidden {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.form-message .question-form__inner-hidden::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 42px;
+  width: 5px;
+  height: 100%;
+  background-image: url(../img/svg/contacts-lines-desktop.svg);
+}
+
+
+
+
+@media  screen and (max-width: 900px) {
+  .form-message .question-form__inner-hidden::before {
+    display: none;
+  }
+}

@@ -1,0 +1,92 @@
+<header class="header">
+  <div class="header__wrapper">
+    <div class="header__top">
+      <div class="header__logo">
+        <a href="main.html">
+          <svg aria-label="Дом предков">
+            <use xlink:href="#icon-logo"></use>
+          </svg>
+        </a>
+      </div>
+      <include src="source/html/components/social-link-list.html" locals='{
+        "class": ""
+    }'></include>
+      <button type="button" class="header__map-btn" data-micromodal-trigger="modal-1">
+        <span>Оставить заявку</span>
+        <svg class="icon-map" aria-label="Оставить заявку" width="62" height="62">
+          <use xlink:href="#icon-map"></use>
+        </svg>
+      </button>
+      <button type="button" id="nav-btn" class="header__btn-menu menu-btn" aria-label="Открыть меню">
+        <span class="menu-btn__inner"></span>
+      </button>
+    </div>
+  </div>
+
+  <nav id="main-nav" class="header__nav main-nav">
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="main.html" class="main-nav__link">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="about.html" class="main-nav__link">О проекте</a>
+        </li>
+        <li class="main-nav__item main-nav__item--dropdown">
+          <a href="articles.html" class="main-nav__link main-nav__link--dropdown">
+            <span>Статьи</span>
+            <svg class="icon-dropdown" width="9" height="6">
+              <use xlink:href="#icon-arrow-down"></use>
+            </svg>
+          </a>
+
+          <ul class="main-nav__sub-menu sub-menu">
+            <li class="sub-menu__item">
+              <a href="articles.html" class="main-nav__link">Все статьи</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="dvoryanstvo.html" class="main-nav__link">Дворянство</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Мещанство</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Крестьянство</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Однодворцы</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Купечество</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Духовенство</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Виды исторических документов</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Про архивы</a>
+            </li>
+            <li class="sub-menu__item">
+              <a href="#" class="main-nav__link">Генеалогия и родословная</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="main-nav__item">
+          <a href="services.html" class="main-nav__link">Услуги</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="contacts.html" class="main-nav__link">Контакты</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="reviews.html" class="main-nav__link">Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="map-site.html" class="main-nav__link">Карта сайта</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

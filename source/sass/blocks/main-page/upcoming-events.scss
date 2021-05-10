@@ -1,0 +1,112 @@
+.upcoming-events {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    @media screen and (max-width: $viewport--xl) {
+      padding: 0 40px;
+    }
+
+    @media screen and (max-width: $viewport--lg) {
+      padding: 0 20px;
+    }
+  }
+  &__btn-wrapper {
+    display: flex;
+    margin-left: auto;
+
+    @media screen and (max-width: $viewport--lg) {
+      display: none;
+    }
+  }
+  &__btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 66px;
+    height: 66px;
+    padding: 0 32px;
+    border: 1px solid rgba(40, 40, 40, 0.5);
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: "Pobeda-Bold", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: border-color .3s;
+    outline: none;
+
+    &.swiper-button-disabled {
+      opacity: 0.3;
+    }
+
+    &--prev {
+      margin-right: 20px;
+      &:before {
+        content: '←' !important;
+      }
+    }
+
+    &:hover {
+      border-color: $color-default-black;
+    }
+
+    &:before {
+      content: '→';
+      font-family: "Pobeda-Regular", "Arial", sans-serif;
+      font-size: 24px;
+      line-height: 1.3
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 95%;
+      height: 95%;
+      border: 3px solid $color-default-black;
+      border-radius: 10px;
+
+      @media screen and (max-width: $viewport--md) {
+        display: none;
+      }
+    }
+  }
+
+  &__slider-container {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: calc((100% - 81.22222em)/2 + 30px);
+
+    @media screen and (max-width: $viewport--xl) {
+      padding-left: 40px;
+    }
+
+    @media screen and (max-width: $viewport--lg) {
+      margin-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  &__title {
+    margin: 0 auto;
+    font-family: "Pobeda-Bold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    text-align: center;
+
+
+    @media screen and (max-width: $viewport--lg) {
+      font-size: 26px;
+      line-height: 1.3;
+    }
+  }
+}
+

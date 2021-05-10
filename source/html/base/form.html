@@ -1,0 +1,69 @@
+<section class="main-page__form question-form">
+  <div class="question-form__wrapper">
+    <div class="question-form__inner question-form__inner--form">
+      <h2 class="question-form__title">
+        Задайте свой вопрос
+      </h2>
+
+      <p class="question-form__descr">
+        На все вопросы я стараюсь отвечать оперативно, но некоторые требуют тщательной подготовки.
+      </p>
+      <form class="question-form__form" action="" method="POST">
+        <div class="question-form__field question-form__field--name">
+          <label for="name">Имя</label>
+          <input id="name" type="text" name="name" placeholder="Имя" required="">
+        </div>
+
+        <div class="question-form__field question-form__field--email">
+          <label for="tel">Телефон</label>
+          <input id="tel" type="tel" name="tel" value="" placeholder="Телефон" required="">
+        </div>
+
+        <div class="question-form__field question-form__field--email">
+          <label for="e-mail">Электронная почта (для получения ответа)</label>
+          <input id="e-mail" type="email" name="e-mail" value="" placeholder="Электронный адрес" required="">
+        </div>
+
+        <div class="question-form__question">
+          <label for="question">Вопрос</label>
+          <textarea id="question" name="question" placeholder="Введите сообщение" required=""></textarea>
+        </div>
+
+        <button class="question-form__button" id="btn" type="submit" aria-label="Отправить"><span>Отправить</span>
+        </button>
+
+        <div class="question-form__consent">
+          <span>Нажимая кнопку «Отправить», вы даёте</span>
+          <a href="#">согласие&nbsp;на&nbsp;обработку своих данных</a>
+        </div>
+      </form>
+    </div>
+    <div class="question-form__inner">
+      <div class="question-content">
+        <div class="question-content__title">Вы можете:</div>
+        <ul class="question-content__list">
+          <li class="question-content__item">
+            задать вопросы о поиске исторических документов, <br>получить консультацию;
+          </li>
+          <li class="question-content__item">
+            узнать информацию по оставленным ранее заявкам<br> вопросы по его содержанию;
+          </li>
+          <li class="question-content__item">
+            предложить сотрудничество.
+          </li>
+        </ul>
+
+        <p class="question-content__text">
+          В среднем на заявки с сайта я отвечаю в течении часа.<br>
+          Для решения оперативных вопросов пишите в социальные сети:
+        </p>
+
+        <div class="question-content__social">
+          <include src="source/html/components/social-link-list.html" locals='{
+"class": "social-link-list--light"
+}'></include>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

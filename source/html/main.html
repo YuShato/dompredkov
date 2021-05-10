@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="">
+
+<link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="favicon/favicon.ico" rel="shortcut icon">
+<!-- <link href="favicon/site.webmanifest" rel="manifest">
+<link color="#c84659" href="favicon/safari-pinned-tab.svg" rel="mask-icon">
+ -->
+<meta content="#ffffff" name="msapplication-TileColor">
+<meta content="favicon/browserconfig.xml" name="msapplication-config">
+<meta content="#ffffff" name="theme-color">
+
+
+<!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
+
+<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+<link rel="stylesheet" href="css/style.min.css">
+  <title>Дом предков - Главная</title>
+
+</head>
+
+<body class="theme-summer">
+
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__top">
+          <div class="header__logo">
+            <a href="main.html">
+              <svg aria-label="Дом предков">
+                <use xlink:href="#icon-logo"></use>
+              </svg>
+            </a>
+          </div>
+          <include src="source/html/components/social-link-list.html" locals='{
+            "class": ""
+        }'></include>
+          <button type="button" class="header__map-btn" data-micromodal-trigger="modal-1">
+            <span>Оставить заявку</span>
+            <svg class="icon-map" aria-label="Оставить заявку" width="62" height="62">
+              <use xlink:href="#icon-map"></use>
+            </svg>
+          </button>
+          <button type="button" id="nav-btn" class="header__btn-menu menu-btn" aria-label="Открыть меню">
+            <span class="menu-btn__inner"></span>
+          </button>
+        </div>
+      </div>
+
+      <nav id="main-nav" class="header__nav main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="main.html" class="main-nav__link">Главная</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="about.html" class="main-nav__link">О проекте</a>
+            </li>
+            <li class="main-nav__item main-nav__item--dropdown">
+              <a href="articles.html" class="main-nav__link main-nav__link--dropdown">
+                <span>Статьи</span>
+                <svg class="icon-dropdown" width="9" height="6">
+                  <use xlink:href="#icon-arrow-down"></use>
+                </svg>
+              </a>
+
+              <ul class="main-nav__sub-menu sub-menu">
+                <li class="sub-menu__item">
+                  <a href="articles.html" class="main-nav__link">Все статьи</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="dvoryanstvo.html" class="main-nav__link">Дворянство</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Мещанство</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Крестьянство</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Однодворцы</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Купечество</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Духовенство</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Виды исторических документов</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Про архивы</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="main-nav__link">Генеалогия и родословная</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="main-nav__item">
+              <a href="services.html" class="main-nav__link">Услуги</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="contacts.html" class="main-nav__link">Контакты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="reviews.html" class="main-nav__link">Отзывы</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="map-site.html" class="main-nav__link">Карта сайта</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <main class="main-page">
+      <div class="main-page__wrapper">
+        <div class="main-page__menu slider-menu">
+          <div class="swiper-container slider-menu__slider-container">
+            <div class="swiper-wrapper slider-menu__slider">
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Комплексное исследование"
+                data-slide-href="complex-research.html">
+                <img src="img/content/main-slide-1-desktop@1x.jpg"
+                  srcset="img/content/main-slide-1-desktop@1x.jpg 1x, img/content/main-slide-1-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Точечный просмотр" data-slide-href="spot-research.html">
+                <img src="img/content/main-slide-2-desktop@1x.jpg"
+                  srcset="img/content/main-slide-2-desktop@1x.jpg 1x, img/content/main-slide-2-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Публикация дела" data-slide-href="publication.html">
+                <img src="img/content/main-slide-3-desktop@1x.jpg"
+                  srcset="img/content/main-slide-3-desktop@1x.jpg 1x, img/content/main-slide-3-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Перевод старых текстов" data-slide-href="services.html">
+                <img src="img/content/main-slide-4-desktop@1x.jpg"
+                  srcset="img/content/main-slide-4-desktop@1x.jpg 1x, img/content/main-slide-4-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Консультация" data-slide-href="consulting.html">
+                <img src="img/content/main-slide-5-desktop@1x.jpg"
+                  srcset="img/content/main-slide-5-desktop@1x.jpg 1x, img/content/main-slide-5-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="Сопровождение исследования"
+                data-slide-href="search-escort.html">
+                <img src="img/content/main-slide-6-desktop@1x.jpg"
+                  srcset="img/content/main-slide-6-desktop@1x.jpg 1x, img/content/main-slide-6-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+              <div class="swiper-slide slider-menu__slide" data-slide-name="План исследования" data-slide-href="search-plan.html">
+                <img src="img/content/main-slide-7-desktop@1x.jpg"
+                  srcset="img/content/main-slide-7-desktop@1x.jpg 1x, img/content/main-slide-7-desktop@2x.jpg 2x"
+                  alt="">
+              </div>
+            </div>
+          </div>
+          <div class="slider-menu__list-wrapper">
+            <ul class="slider-menu__list">
+              <li class="slider-menu__item">
+                <a href="complex-research.html">
+                  <span>
+                    Комплексное исследование
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="spot-research.html">
+                  <span>
+                    Точечный просмотр
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="search-plan.html">
+                  <span>
+                    План исследования
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="search-escort.html">
+                  <span>
+                    Сопровождение исследования
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="consulting.html">
+                  <span>
+                    Консультация
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="translate.html">
+                  <span>
+                    Перевод старых текстов
+                  </span>
+                </a>
+              </li>
+              <li class="slider-menu__item">
+                <a href="publication.html">
+                  <span>
+                    Публикация дела
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="author-wrapper">
+          <section class="main-page__upcoming-events upcoming-events">
+            <div class="upcoming-events__wrapper">
+              <h2 class="upcoming-events__title">О проекте</h2>
+            </div>
+            <div class="question-form__wrapper about-project">
+              <div class="question-form__inner">
+                <div class="question-content__title">История создания проекта</div>
+                <p>
+                  Мое увлечение генеалогией началось с поисков информации о репрессированном прадедушке. С тех пор
+                  проделано много работы по поиску своей родословной.
+                  В 2008 году, когда я начинал поиск документов в архивах, было крайне мало информации по генеалогии в
+                  свободном доступе.
+                </p>
+                <p>
+                  За 13 лет работы в архивах я узнал много тонкостей, подводных камней, которые попадутся начинающему
+                  исследователю. Особенно много «граблей» я собрал в самом начале работы в архивах.
+                </p>
+                <p>
+                  Проект “Дом предков” я создал для помощи в составлении родословной. Вся информация и статьи на сайте
+                  написаны лично мною. Никакой «воды», только личный опыт из практики за 13 лет!
+                </p>
+                <p>
+                  Без прошлого нет будущего. Род и семья — величайшее достояние каждого из нас. Мы должны сохранить и
+                  приумножить имеющиеся знания.
+                </p>
+
+              </div>
+              <div class="question-form__inner">
+                <div class="question-content">
+                  <div class="question-content__title">На моем сайте вы найдете ответы:</div>
+                  <ul class="question-content__list">
+                    <li class="question-content__item">
+                      с чего начать начинающему&nbsp;исследователю;
+                    </li>
+                    <li class="question-content__item">
+                      можно ли самостоятельно найти всю информацию в&nbsp;интернете, без&nbsp;поездок в архив;
+                    </li>
+                    <li class="question-content__item">
+                      какие исторические материалы можно&nbsp;найти в&nbsp;интернете;
+                    </li>
+                    <li class="question-content__item">
+                      как начать работу с архивами.
+                    </li>
+                  </ul>
+
+                  <p class="question-content__text">
+                    До встречи на страницах проекта!<br>
+                    Если вам нужен совет или услуга, буду рад вам помочь.
+                  </p>
+                  <button type="button" class="our-park__button" data-micromodal-trigger="modal-1">
+                    <a>Связаться</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- автор начало -->
+        <div class="author-wrapper">
+          <section class="main-page__upcoming-events upcoming-events">
+            <div class="upcoming-events__wrapper">
+              <h2 class="upcoming-events__title">Об авторе</h2>
+            </div>
+            <div class="question-form__wrapper about-project">
+              <div class="question-form__inner">
+                <img class="author-photo" src="img/content/our-park-img-2@1x.jpg"
+                  srcset="img/content/our-park-img-2@1x.jpg 1x, img/content/our-park-img-2@2x.jpg 2x" width="350"
+                  height="300" alt="Александр Шатохин фото">
+                  <h3 class="author-name">
+                    Александр Шатохин
+                  </h3>
+              </div>
+
+
+            <div class="question-form__inner">
+              <div class="question-content">
+                <div class="question-content__title">Коротко обо мне:</div>
+                <ul class="question-content__list">
+                  <li class="question-content__item">
+                    в генеалогии с 2008 года
+                  </li>
+                  <li class="question-content__item">
+                    62 разработанных линии предков
+                  </li>
+                  <li class="question-content__item">
+                    1200 выявленных предка
+                  </li>
+                </ul>
+
+                <p class="question-content__text">
+                  До встречи на страницах проекта!<br>
+                  Если вам нужен совет или услуга, буду рад вам помочь.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        </section>
+      </div>
+      <!-- автор конец -->
+      <div class="main-page__links-section">
+        <div class="main-page__section-wrapper">
+          <div class="main-page__section-inner">
+            <ul class="main-page__section-list other-articles">
+              <li class="main-page__section-item">
+                <a href="contacts.html" class="main-page__section-link">
+                  <img src="img/content/advantage.png" alt="Преимущества работы" width="100" height="100">
+                  <div class="main-page__section-title">
+                    <span>Контакты и соцсети</span>
+                  </div>
+                </a>
+              </li>
+              <li class="main-page__section-item">
+                <a href="services.html" class="main-page__section-link">
+                  <img src="img/content/order.png" alt="Заказать услугу" width="100" height="100">
+                  <div class="main-page__section-title">
+                    <span>Заказать услугу</span>
+                  </div>
+                </a>
+              </li>
+              <li class="main-page__section-item">
+                <a href="reviews.html" class="main-page__section-link">
+                  <img src="img/content/review.png" alt="Почитать отзывы" width="100" height="100">
+                  <div class="main-page__section-title">
+                    <span>Смотреть отзывы</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="main-page__upcoming-events upcoming-events">
+
+        <div class="upcoming-events__wrapper">
+          <h2 class="upcoming-events__title">Подборка статей по сословиям</h2>
+        </div>
+
+        <div class="test-wrapper">
+
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-1">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-1-desktop@1x.jpg"
+                srcset="img/content/main-event-1-desktop@1x.jpg 1x, img/content/main-event-1-desktop@2x.jpg 2x"
+                alt="дворянство сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Дворянство</span>
+              <p class="slide-event__text">Дворяне в России возникли в XI веке как младшая часть феодального сословия,
+                наряду со старшей-боярской. <br>В XIV веке начали получать за службу поместья, постепенно сливаясь с
+                боярством.
+              </p>
+              <a href="dvoryanstvo.html" class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-2">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-2-desktop@1x.jpg"
+                srcset="img/content/main-event-2-desktop@1x.jpg 1x, img/content/main-event-2-desktop@2x.jpg 2x"
+                alt="Духовенство сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Духовенство</span>
+              <p class="slide-event__text">Духовенство - особое сословие, занимающее обособленное положение в
+                обществе. Представители духовенства освобождались от уплаты налогов и службы в армии.</p>
+              <a class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-3">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-3-desktop@1x.jpg"
+                srcset="img/content/main-event-3-desktop@1x.jpg 1x, img/content/main-event-3-desktop@2x.jpg 2x"
+                alt="Крестьянство сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Крестьянство</span>
+              <p class="slide-event__text"> Класс людей, имеющих низкий социальный статус и живущих главным образом за
+                счет сельскохозяйственного труда. Облагались податями и обязательством воееной службы.</p>
+              <a class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-4">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-5-desktop@1x.jpg"
+                srcset="img/content/main-event-5-desktop@1x.jpg 1x, img/content/main-event-5-desktop@2x.jpg 2x"
+                alt="Купечество сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Купечество</span>
+              <p class="slide-event__text">Особый социальный слой, занимающийся торговлей. Позже часть предствителей
+                купечества занялась производством и промышленностью и стала первыми представителями промышленной
+                буржуазии. </p>
+              <a class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-5">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-4-desktop@1x.jpg"
+                srcset="img/content/main-event-4-desktop@1x.jpg 1x, img/content/main-event-4-desktop@2x.jpg 2x"
+                alt="Мещане сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Мещанство</span>
+              <p class="slide-event__text">В Российской империи до 1917 года — сословие, низший разряд городских
+                обывателей. Мещане относились к податным сословиям, несли рекрутскую и податную повинность, могли
+                подвергаться телесным наказаниям.</p>
+              <a class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+          <div class="swiper-slide upcoming-events__slider-item slide-event slide-event--color-6">
+            <div class="slide-event__img">
+              <img src="img/content/main-event-6-desktop@1x.jpg"
+                srcset="img/content/main-event-6-desktop@1x.jpg 1x, img/content/main-event-6-desktop@2x.jpg 2x"
+                alt="Однодворцы сословие фото">
+            </div>
+            <div class="slide-event__content">
+              <span class="slide-event__date">Однодворцы</span>
+              <p class="slide-event__text">Особое служилое сословие в российском государстве, возникшее при
+                расширении его южных границ, несущие охрану этих самых границ. Однодворцы имели право личного
+                землевладения и владения крестьянами.</p>
+              <a class="slide-event__btn"><span>Подробнее</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="main-page__links-section other-articles">
+        <div class="main-page__section-wrapper">
+          <div class="main-page__section-inner">
+            <h2 class="upcoming-events__title">Подборка полезных статей</h2>
+            <ul class="main-page__section-list common-articles">
+              <li class="main-page__section-item">
+                <a href="#" class="main-page__section-link">
+                  <div class="main-page__section-title">
+                    <span>Виды исторических <br>документов</span>
+                  </div>
+                  <div class="main-page__section-descr">
+                    <ul class="main-page__descr-list">
+                      <li class="main-page__descr-item">какие бывают</li>
+                      <li class="main-page__descr-item">что в них искать </li>
+                      <li class="main-page__descr-item">как читать старые тексты</li>
+                    </ul>
+                  </div>
+                </a>
+              </li>
+              <li class="main-page__section-item">
+                <a href="#" class="main-page__section-link">
+                  <div class="main-page__section-title">
+                    <div class="main-page__section-title">
+                      <span>Исторические<br> архивы</span>
+                    </div>
+                    <div class="main-page__section-descr">
+                      <ul class="main-page__descr-list">
+                        <li class="main-page__descr-item">адреса, контакты</li>
+                        <li class="main-page__descr-item">как записаться </li>
+                        <li class="main-page__descr-item">виды документов</li>
+                      </ul>
+                    </div>
+                </a>
+              </li>
+              <li class="main-page__section-item">
+                <a href="#" class="main-page__section-link">
+                  <div class="main-page__section-title">
+                    <span>Генеалогия<br> и родословная</span>
+                  </div>
+                  <div class="main-page__section-descr">
+                    <ul class="main-page__descr-list">
+                      <li class="main-page__descr-item">как искать</li>
+                      <li class="main-page__descr-item">как красиво оформить</li>
+                      <li class="main-page__descr-item">с чего начать поиски</li>
+                    </ul>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <include src="source/html/base/form.html"></include>
+
+      <div class="main-page__inst-slider inst-slider">
+
+        <div class="inst-slider__wrapper">
+          <div class="inst-slider__title">
+            #домпредков
+          </div>
+          <p>&#8596; листайте фото &#8596;</p>
+
+          <div class="inst-slider__btn-wrapper">
+            <button type="button" class="inst-slider__btn inst-slider__btn--prev"></button>
+            <button type="button" class="inst-slider__btn inst-slider__btn--next"></button>
+          </div>
+        </div>
+
+        <div class="inst-slider__slider-inner">
+          <div class="swiper-container inst-slider__slider-container">
+            <div class="swiper-wrapper inst-slider__slider-wrapper">
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-1@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    35
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-2@1x.jpg" alt="" class="inst-slider__img">
+                <a href="#" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    56
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-3@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    41
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-4@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    29
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-5@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    43
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-6@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    12
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item social-slide">
+                <svg width="34" height="34" class="social-slide__icon">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg>
+                <div class="social-slide__title">
+                  Мой инстаграм
+                </div>
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="social-slide__link"
+                  target="blank">@dompredkov</a>
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="social-slide__btn"
+                  target="blank"><span>Подписаться</span></a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-7@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    21
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-8@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    55
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-9@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    49
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-10@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    27
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-11@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=rhttps://www.instagram.com/dompredkov/?hl=ru"
+                  class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    56
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-6@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=rhttps://www.instagram.com/dompredkov/?hl=ru"
+                  class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    22
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-7@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=rhttps://www.instagram.com/dompredkov/?hl=ru"
+                  class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    141
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-8@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    11
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-9@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    34
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-10@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    31
+                  </span>
+                </a>
+              </div>
+              <div class="swiper-slide inst-slider__item">
+                <img src="img/content/main-instagram-photo-11@1x.jpg" alt="" class="inst-slider__img">
+                <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__link" target="blank">
+                  <svg class="inst-slider__like" width="18" height="16">
+                    <use xlink:href="#icon-like-empty"></use>
+                  </svg>
+                  <span class="inst-slider__count">
+                    27
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/dompredkov/?hl=ru" class="inst-slider__social-link">Мой инстаграм</a>
+        </div>
+      </div>
+  </div>
+  </main>
+
+  <include src="source/html/base/footer.html"></include>
+
+  <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container modal-map-container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <include src="source/html/base/form.html"></include>
+        </main>
+        <button class="modal__btn" data-micromodal-close aria-label="Close this window">
+          <span class="modal__btn-inner"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

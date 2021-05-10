@@ -1,0 +1,138 @@
+.aside-nav {
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1023px) {
+  .aside-nav {
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .aside-nav::before {
+    top: 69px;
+  }
+}
+
+.aside-nav span {
+  display: none;
+  font-family: "Gerbera", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+@media screen and (max-width: 1023px) {
+  .aside-nav span {
+    display: block;
+    padding-top: 89px;
+  }
+}
+
+.aside-nav ul {
+  width: 100%;
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding: 14px 20px 14px;
+  font-size: 18px;
+  line-height: 27px;
+  list-style: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 1060px) {
+  .aside-nav ul {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .aside-nav ul {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .aside-nav ul {
+    margin-bottom: -15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.aside-nav ul li {
+  margin-top: 10px;
+  padding: 4px;
+  border: 1px dotted #694a3f;
+  box-shadow: 0px 5px 10px 2px rgba(94, 80, 57, 0.2) inset;
+  box-shadow: 6px 4px 9px 2px rgba(94, 80, 57, 0.24);
+  border-radius: 10px;
+  background-color: #fdfbf7;
+}
+
+@media screen and (max-width: 630px) {
+  .aside-nav ul li {
+    margin-bottom: 20px;
+  }
+}
+
+.aside-nav ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.aside-nav ul li a:hover,
+.aside-nav ul li a:active {
+  opacity: 0.6;
+}
+
+.services {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #ece4d9;
+  box-shadow: 5px 5px 15px #a79f92;
+  border: 1px dotted #694a3f;
+
+  &--sticky {
+    position: fixed;
+    width: inherit;
+    top: 0;
+
+    @media screen and (max-width: 1030px) {
+      display: none;
+    }
+  }
+
+  & h2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background: #1e130c;
+    background: -webkit-linear-gradient(to right, #1e130c, #9a8478);
+    background: linear-gradient(to right, #75655a, #9a8478);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.right-column .our-park__button {
+  font-size: 18px;
+
+  @media screen and (max-width: 830px) {
+    font-size: 14px;
+  }
+}
