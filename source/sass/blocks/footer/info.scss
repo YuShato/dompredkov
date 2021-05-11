@@ -4,14 +4,12 @@
 }
 
 @media screen and (max-width: 1133px) {
-
   .info {
     margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-
   .info {
     flex-direction: column;
     padding-bottom: 30px;
@@ -19,7 +17,6 @@
 }
 
 @media screen and (max-width: 485px) {
-
   .info {
     margin-bottom: 34px;
     padding-bottom: 0;
@@ -27,34 +24,25 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .info {
     flex-direction: row;
     align-items: flex-start;
   }
 }
 
-/* .info__logo {
-  display: flex;
-} */
-
 @media screen and (max-width: 1133px) {
-
   .info__logo {
     margin-right: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-
   .info__logo {
     padding-bottom: 30px;
   }
 }
 
-
 @media screen and (max-width: 485px) {
-
   .info__logo {
     padding-bottom: 0;
 
@@ -74,7 +62,6 @@
 }
 
 @media screen and (max-width: 485px) {
-
   .info__logo-link svg {
     width: 180px;
     height: 44px;
@@ -82,7 +69,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .info__logo-link svg {
     width: 185px;
     height: 48px;
@@ -96,7 +82,6 @@
 }
 
 @media screen and (max-width: 1133px) {
-
   .info__logo-mdc {
     margin-left: 0;
     margin-right: 0;
@@ -105,37 +90,31 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .info__logo-mdc {
     order: 3;
   }
 }
 
 @media screen and (max-width: 485px) {
-
   .info__logo-mdc {
     margin-left: 0;
     margin-right: 0;
-
   }
 }
 
 @media screen and (max-width: 1133px) {
-
   .info__contacts {
     margin-right: 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
-
   .info__contacts {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 485px) {
-
   .info__contacts {
     order: 2;
   }

@@ -1,4 +1,3 @@
-
 // Цвет шапки на mobile-макетах
 
 .theme-summer .header {
@@ -13,21 +12,21 @@
 
 .theme-summer .main-nav {
   background: #603813;
-background: -webkit-linear-gradient(to right, #b29f94, #603813);
-background: linear-gradient(to left, #b29f94, #603813);
+  background: -webkit-linear-gradient(to right, #b29f94, #603813);
+  background: linear-gradient(to left, #b29f94, #603813);
 }
 
 // Цвет подложки mobile-меню
 
 .theme-summer .main-nav {
   @media screen and (max-width: $viewport--md) {
-    background: #8d6052 ;
+    background: #8d6052;
   }
 }
 
 // Цвет ссылок
 .theme-summer .link {
-  background-color: #F05A5A;
+  background-color: #f05a5a;
 }
 
 // Фоновый цвет блока «Наш instagram»

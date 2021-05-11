@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .contact-map__img {
     margin-left: -20px;
     margin-right: -20px;
@@ -22,20 +22,19 @@
   border-radius: 10px;
 }
 
-
-@media  screen and (max-width: 1450px) {
+@media screen and (max-width: 1450px) {
   .contact-map__img iframe {
     width: 100%;
   }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .contact-map__img iframe {
     border-radius: 0;
   }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .contact-map__img iframe {
     height: 393px;
   }

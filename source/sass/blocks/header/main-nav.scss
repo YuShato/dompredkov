@@ -106,7 +106,7 @@
     }
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       bottom: -4px;
@@ -114,7 +114,7 @@
       height: 1px;
       background-color: $color-default-white;
       opacity: 0.3;
-      transition: opacity .3s;
+      transition: opacity 0.3s;
 
       @media screen and (max-width: $viewport--md) {
         bottom: 0;
@@ -163,7 +163,7 @@
   height: 0;
   overflow: hidden;
   list-style: none;
-  transition: height .5s, padding-top .5s;
+  transition: height 0.5s, padding-top 0.5s;
 
   &--open {
     padding-top: 15px;
@@ -178,11 +178,6 @@
   }
 }
 
-
-
-
-
-
 .main-nav__wrapper {
   display: flex;
   width: 100%;
@@ -190,28 +185,23 @@
   margin: 0 auto;
 }
 
-@media  screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   .main-nav__wrapper {
     padding: 0 40px;
   }
 }
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .main-nav__wrapper {
     padding: 0 20px;
   }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav__wrapper {
     padding: 0 0;
   }
 }
-
-
-
-
-
 
 .main-nav__search-btn {
   padding: 0;
@@ -224,7 +214,7 @@
   outline: none;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav__search-btn {
     display: none;
   }
@@ -232,21 +222,20 @@
 
 .main-nav__search-btn:hover,
 .main-nav__search-btn:active {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .main-nav__search-btn use {
   fill: #ffffff;
 }
 
-
 .main-nav .search-popup--mobile {
   display: none;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav .search-popup--mobile {
-    display:flex;
+    display: flex;
     margin-top: 20px;
   }
 }
@@ -255,16 +244,11 @@
   display: none;
 }
 
-
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav .search-popup--bottom {
     display: none;
   }
 }
-
-
-
-
 
 .main-nav__list--hidden {
   display: none;
@@ -274,13 +258,13 @@
   display: none;
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav__list {
     display: flex;
   }
 }
 
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .main-nav__search {
     display: block;
   }

@@ -2,7 +2,7 @@
   margin-right: -3%;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos {
     margin-left: -20px;
     margin-right: -20px;
@@ -14,7 +14,7 @@
   padding-bottom: 40px;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__heading {
     padding-top: 8px;
     padding-bottom: 20px;
@@ -24,20 +24,20 @@
 
 .list-photos__heading h1 {
   margin: 0;
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 60px;
   line-height: 66px;
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .list-photos__heading h1 {
     font-size: 45px;
     line-height: 47px;
   }
 }
 
-@media  screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .list-photos__heading h1 {
     font-size: 30px;
     line-height: 38px;
@@ -55,7 +55,7 @@
   list-style: none;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__list {
     margin-right: 0;
   }
@@ -69,7 +69,7 @@
   line-height: 0;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__item {
     margin-right: 0;
   }
@@ -80,19 +80,19 @@
   border-radius: 10px;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__item img {
     border-radius: 0;
   }
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .list-photos__item {
     margin-bottom: 20px;
   }
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__item {
     margin-bottom: 10px;
   }
@@ -102,7 +102,7 @@
   width: 47%;
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__item--half {
     width: 100%;
   }
@@ -118,7 +118,7 @@
   margin-right: 3%;
 }
 
-@media  screen and (max-width: 623px) {
+@media screen and (max-width: 623px) {
   .list-photos__heading-group {
     display: none;
   }
@@ -131,14 +131,13 @@
 }
 
 .list-photos__heading-group-left h3 {
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 48px;
   line-height: 42px;
 }
 
 .list-photos__heading-group-left h3 a {
-
   transition: opacity 0.3s;
 }
 
@@ -146,7 +145,6 @@
 .list-photos__heading-group-left h3 a:active {
   opacity: 0.7;
 }
-
 
 .list-photos__heading-group-right {
   max-width: 620px;
@@ -157,13 +155,13 @@
 .list-photos__heading-group-right h3 {
   padding-left: 20px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 48px;
   line-height: 42px;
 }
 
-@media  screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .list-photos__heading-group-left h3,
   .list-photos__heading-group-right h3 {
     font-size: 33px;
@@ -172,7 +170,6 @@
 }
 
 .list-photos__heading-group-right h3 a {
-
   transition: opacity 0.3s;
 }
 
@@ -181,18 +178,17 @@
   opacity: 0.7;
 }
 
-@media  screen and (max-width: 623px) {
+@media screen and (max-width: 623px) {
   .list-photos__slider-container {
     display: none;
   }
 }
 
-@media  screen and (max-width: 623px) {
+@media screen and (max-width: 623px) {
   .list-photos__btn-wrapper {
     display: none;
   }
 }
-
 
 .list-photos__slider-container {
   max-width: 1240px;
@@ -208,23 +204,23 @@
   margin-left: auto;
   margin-right: auto;
 
-  @media  screen and (max-width: 800px) {
+  @media screen and (max-width: 800px) {
     padding-top: 20px;
   }
 
-  @media  screen and (max-width: 700px) {
+  @media screen and (max-width: 700px) {
     display: none;
   }
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__button-wrapper {
     padding-top: 32px;
     padding-left: 22px;
   }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .list-photos__button-wrapper {
     padding-top: 34px;
     padding-left: 2px;
@@ -245,27 +241,23 @@
   padding-left: 17px;
   padding-right: 17px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
 
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   background-color: transparent;
   border: 3px solid #282828;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px rgba(40, 40, 40, 0.5);
   outline: none;
 }
 
 .list-photos__btn:hover,
 .list-photos__btn:active {
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px #282828;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #282828;
 }
 
 .list-photos__btn--prev {
@@ -273,15 +265,13 @@
 }
 
 .list-photos__btn.swiper-button-disabled {
-  opacity: .3;
+  opacity: 0.3;
   cursor: default;
 }
 
 .list-photos__btn:hover.swiper-button-disabled,
 .list-photos__btn:active.swiper-button-disabled {
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px rgba(40, 40, 40, 0.5);
 }
 
 .list-photos__button {
@@ -290,13 +280,13 @@
   order: 1;
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .list-photos__button {
     margin-left: 20px;
   }
 }
 
-@media  screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
   .list-photos__button {
     padding: 7px;
   }
@@ -308,29 +298,27 @@
   padding-left: 18px;
   padding-right: 18px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
 
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   background-color: transparent;
   border: 3px solid #282828;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px rgba(40, 40, 40, 0.5);
 }
 
-@media  screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .list-photos__button a {
     font-size: 16px;
     line-height: 20px;
   }
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .list-photos__button a {
     padding-top: 12px;
   }
@@ -338,7 +326,5 @@
 
 .list-photos__button a:hover,
 .list-photos__button a:active {
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px #282828;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #282828;
 }

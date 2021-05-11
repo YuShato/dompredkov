@@ -9,7 +9,6 @@
 }
 
 .slide-album__img a {
-
   transition: opacity 0.3s;
 }
 
@@ -34,14 +33,14 @@
   line-height: 0;
 }
 
-@media  screen and (max-width: 1240px) {
+@media screen and (max-width: 1240px) {
   .slide-album__img-project {
     width: 60px;
     height: 60px;
   }
 }
 
-@media  screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .slide-album__img-project {
     top: 10px;
     left: 20px;
@@ -63,7 +62,7 @@
   padding-right: 20px;
 }
 
-@media  screen and (max-width: 715px) {
+@media screen and (max-width: 715px) {
   .slide-album__wrap-datetime-and-number-photos {
     padding-top: 52%;
   }
@@ -85,7 +84,7 @@
   background-color: rgba(90, 100, 190, 0.5);
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .slide-album__datetime {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -97,17 +96,17 @@
 .slide-album__datetime time {
   font-size: 18px;
   line-height: 27px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .slide-album__datetime time {
     font-size: 17px;
     line-height: 24px;
   }
 }
 
-@media  screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .slide-album__datetime time {
     font-size: 16px;
     line-height: 22px;
@@ -127,7 +126,7 @@
   border-radius: 5px;
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .slide-album__number-photos {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -152,7 +151,7 @@
   background-size: 20px 17px;
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .slide-album__number-photos::before {
     top: 9px;
     left: 10px;
@@ -170,14 +169,14 @@
   vertical-align: middle;
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .slide-album__number-photos span {
     font-size: 17px;
     line-height: 24px;
   }
 }
 
-@media  screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .slide-album__number-photos span {
     font-size: 16px;
     line-height: 22px;
@@ -197,7 +196,7 @@
 .slide-album__heading h4 {
   margin: 0;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 28px;
   line-height: 35px;
@@ -205,14 +204,14 @@
   transition: opacity 0.3s;
 }
 
-@media  screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
   .slide-album__heading h4 {
     font-size: 25px;
     line-height: 31px;
   }
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .slide-album__heading h4 {
     font-size: 22px;
     line-height: 28px;
@@ -223,4 +222,3 @@
 .slide-album__heading h4:active {
   opacity: 0.7;
 }
-

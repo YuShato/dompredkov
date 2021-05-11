@@ -1,5 +1,4 @@
 @media screen and (max-width: 485px) {
-
   .partners__heading {
     display: flex;
   }
@@ -10,14 +9,13 @@
   margin-bottom: 15px;
   padding-bottom: 15px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 0;
 }
 
 @media screen and (max-width: 485px) {
-
   .partners__heading h2 {
     font-size: 18px;
     line-height: 22px;
@@ -38,7 +36,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .partners__list {
     margin-right: -10px;
   }
@@ -51,7 +48,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .partners__item {
     margin-right: 10px;
     margin-bottom: 10px;
@@ -59,7 +55,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .partners__item a img {
     width: 135px;
     height: 135px;
@@ -67,7 +62,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .partners__item:nth-last-child(3) a img {
     width: 280px;
     height: 135px;
@@ -75,7 +69,6 @@
 }
 
 @media screen and (max-width: 320px) {
-
   .partners__item:nth-last-child(1) a img {
     width: 134px;
     height: 134px;

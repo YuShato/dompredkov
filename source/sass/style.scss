@@ -5,7 +5,6 @@
 @import "vendor/swiper";
 @import "vendor/micromodal";
 
-
 // Global
 //---------------------------------
 
@@ -19,10 +18,8 @@
 @import "global/wrapper-content";
 @import "global/theme";
 
-
 // Blocks
 //---------------------------------
-
 
 // header
 //---------------------------------
@@ -30,7 +27,6 @@
 @import "blocks/header/header";
 @import "blocks/header/main-nav";
 @import "blocks/social-link-list";
-
 
 // Footer
 //---------------------------------
@@ -42,7 +38,6 @@
 @import "blocks/footer/partners";
 @import "blocks/footer/copyright";
 
-
 // Page Contacts
 //---------------------------------
 
@@ -51,7 +46,6 @@
 @import "blocks/page-contacts/wrap-reception-and-form";
 @import "blocks/page-contacts/contact-reception";
 @import "blocks/page-contacts/contact-form";
-
 
 // Main Page
 //---------------------------------
@@ -63,18 +57,15 @@
 @import "blocks/main-page/question-form";
 @import "blocks/main-page/inst-slider";
 
-
 // Page 404
 //---------------------------------
 
 @import "blocks/page-404/page-404";
 
-
 // Page Map Site
 //---------------------------------
 
 @import "blocks/page-map-site/map-site";
-
 
 // Page List Objects
 //---------------------------------
@@ -82,13 +73,11 @@
 @import "blocks/page-list-objects/page-list-objects";
 @import "blocks/page-list-objects/item-object";
 
-
 // Page Gallery Event
 //---------------------------------
 
 @import "blocks/page-gallery-event/list-photos";
 @import "blocks/page-gallery-event/slide-album";
-
 
 // Page Our Park
 //---------------------------------
@@ -96,8 +85,6 @@
 @import "blocks/page-our-park/layout";
 @import "blocks/page-our-park/our-park";
 @import "blocks/page-our-park/aside-nav";
-
-
 
 // Page Form Message
 //---------------------------------
@@ -111,175 +98,3 @@
 // Page Reviews
 //---------------------------------
 @import "blocks/reviews/reviews";
-
-
-// Инструкция для Саши
-
-// !!!!!!!!!!!Вот эти файлы участвуют на ВСЕХ страницах!!!!!!!!!!!!!!!!!
-// =================GLOBAL=============
-// @import "variables";
-// @import "mixins";
-// @import "global/fonts";
-// @import "global/typography";
-// @import "global/reboot";
-// @import "global/utils";
-// @import "global/container";
-// @import "global/wrapper-content";
-// @import "global/theme";
-//=======================VENDOR==============
-// @import "vendor/normalize";
-// @import "vendor/swiper";
-// @import "vendor/micromodal";
-
-// ==================Footer+Header+Sticky menu=================
-// липкое меню
-// // @import "blocks/page-our-park/our-park"; 
-//==========HEADER=============
-// @import "blocks/header/header";
-// @import "blocks/header/main-nav";
-// @import "blocks/social-link-list";
-//===========FOOTER=============
-//@import "blocks/footer/footer";
-// @import "blocks/footer/info";
-// @import "blocks/footer/logo-mdc-link";
-// @import "blocks/footer/contacts";
-// @import "blocks/footer/partners";
-// @import "blocks/footer/copyright";
-
-
-// !!!!!!дальше я делаю разбивку по страницам, в разбивке список компонентов, участвующих ИМЕННО в этой странице + глобальные стили из списка сверху
-//============================================================================
-
-// page 404 - надеюсь, понятно для чего
-//+ global & vendor вначале
-
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/page-404/page-404";
-//===========FOOTER=============
-// стандартно
-
-
-//===============================================================================
-// page about - страница описание "о проекте"
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/page-contacts/contact";
-// @import "blocks/page-contacts/contact-map";
-// @import "blocks/page-contacts/wrap-reception-and-form";
-// @import "blocks/page-contacts/contact-reception";
-// @import "blocks/page-contacts/contact-form";
-//===========FOOTER=============
-// стандартно
-
-// ====================================================================================
-
-// articles.html - страница-разводящая по всем категориям статей (дворянство, купечество и пр)
-// shelonskaya-pyatina.html - страница образец 1 статьи 
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/page-our-park/layout";
-// @import "blocks/page-our-park/our-park";
-// @import "blocks/page-our-park/aside-nav";
-// @import "blocks/main-page/upcoming-events";
-// @import "blocks/main-page/event-slide";
-// @import "blocks/main-page/slider-menu";
-// @import "blocks/page-gallery-event/list-photos";
-// @import "blocks/page-gallery-event/slide-album";
-//===========FOOTER=============
-// стандартно
-
-// ====================================================================================
-// complex-research.html - страница УСЛУГИ, посвященная комплексному исследованию родословной
-// consulting.html страница УСЛУГИ, посвященная консультации по родословной
-// publication.html - страница УСЛУГИ, посвященная публикации старинных дел
-// search-escort.html - страница УСЛУГИ, посвященная  сопровождению исследования
-// search-plan.html - страница УСЛУГИ, посвященная  составлению плана родословной
-// services.html - ОБЩАЯ СТРАНИЦА УСЛУГ, РАЗВОДЯЩАЯ
-// spot-research.html - страница УСЛУГИ, посвященная  точечному исследованию
-// Ко всем страницам с услугами будет набор файлов ниже
-
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/main-page/main-page";
-// @import "blocks/consulting/consulting";
-// @import "blocks/main-page/question-form";
-// @import "blocks/main-page/event-slide";
-
-//===========FOOTER=============
-// стандартно
-//======================================================================================
-
-// contacts.html - страница контактов 
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/page-contacts/contact";
-// @import "blocks/page-contacts/contact-map";
-// @import "blocks/page-contacts/wrap-reception-and-form";
-// @import "blocks/page-contacts/contact-reception";
-// @import "blocks/page-contacts/contact-form";
-// @import "blocks/page-our-park/aside-nav";
-//===========FOOTER=============
-// стандартно
-
-//=======================================================================================
-// dvoryanstvo.html - список статей по одной тематике 
-
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/main-page/main-page";
-// @import "blocks/page-our-park/layout";
-// @import "blocks/page-our-park/our-park";
-// @import "blocks/page-our-park/aside-nav";
-// @import "blocks/main-page/event-slide";
-// @import "blocks/page-gallery-event/list-photos";
-//===========FOOTER=============
-// стандартно
-
-//=======================================================================================
-// index.html - разводящая страница 
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// нет ничего специального
-//===========FOOTER=============
-// стандартно
-
-//=======================================================================================
-// main.html - главная страница сайта
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/main-page/main-page";
-// @import "blocks/main-page/slider-menu";
-// @import "blocks/main-page/upcoming-events";
-// @import "blocks/main-page/event-slide";
-// @import "blocks/main-page/question-form";
-// @import "blocks/main-page/inst-slider";
-//===========FOOTER=============
-// стандартно
-
-// =====================================================================================
-// map-site.html - главная страница сайта
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks/page-map-site/map-site";
-//===========FOOTER=============
-// стандартно
-
-
-// =====================================================================================
-// reviews.html - главная страница сайта
-//==========HEADER=============
-// стандартно
-//=========MAIN===================
-// @import "blocks\reviews\reviews";
-//===========FOOTER=============
-// стандартно

@@ -1,5 +1,7 @@
 source/js/vendor/*.js
 source/js/modules/*.js
+source/img/svg/*.svg
+source/img/sprite/*.svg
 gulpfile.js
 webpack.config.js
 

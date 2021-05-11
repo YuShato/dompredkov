@@ -3,14 +3,14 @@
   padding-bottom: 55px;
 }
 
-@media  screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
   .page-404__error-message {
     flex-direction: column;
     align-items: center;
   }
 }
 
-@media  screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .page-404__error-message {
     padding-bottom: 5px;
   }
@@ -22,13 +22,13 @@
   padding-top: 90px;
 }
 
-@media  screen and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
   .page-404__img {
     margin-right: 0;
   }
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__img {
     padding-top: 30px;
   }
@@ -40,7 +40,7 @@
   line-height: 0;
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__img img {
     width: 270px;
     height: auto;
@@ -52,7 +52,7 @@
   padding-top: 87px;
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__wrap-description-and-button {
     padding-top: 33px;
   }
@@ -66,13 +66,13 @@
 .page-404__description span {
   margin-bottom: 20px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-weight: bold;
   font-size: 60px;
   line-height: 66px;
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__description span {
     margin-bottom: 15px;
     font-size: 30px;
@@ -88,7 +88,7 @@
   line-height: 27px;
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__description p {
     margin-bottom: 32px;
     font-size: 16px;
@@ -107,22 +107,20 @@
   padding-left: 28px;
   padding-right: 28px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-size: 24px;
   line-height: 32px;
   text-transform: uppercase;
 
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   background-color: transparent;
   border: 3px solid #282828;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px rgba(40, 40, 40, 0.5);
 }
 
-@media  screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .page-404__button a {
     padding-top: 14px;
     padding-bottom: 11px;
@@ -136,7 +134,5 @@
 
 .page-404__button a:hover,
 .page-404__button a:active {
-  box-shadow:
-  0 0 0 3px #FFFFFF,
-  0 0 0 4px #282828;
+  box-shadow: 0 0 0 3px #ffffff, 0 0 0 4px #282828;
 }

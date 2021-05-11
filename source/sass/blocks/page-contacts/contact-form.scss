@@ -9,13 +9,13 @@
   border-radius: 10px;
 }
 
-@media  screen and (max-width: 1200px) {
-  .contact-form__form  {
+@media screen and (max-width: 1200px) {
+  .contact-form__form {
     max-width: 100%;
   }
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__form {
     padding-top: 40px;
     padding-left: 20px;
@@ -27,19 +27,19 @@
   margin: 0;
   margin-bottom: 10px;
 
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-size: 36px;
   line-height: 42px;
 }
 
-@media  screen and (max-width: 1164px) {
+@media screen and (max-width: 1164px) {
   .contact-form__heading h2 {
     font-size: 29px;
     line-height: 37px;
   }
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__heading h2 {
     margin-bottom: 15px;
 
@@ -53,7 +53,7 @@
   flex-direction: column;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__field {
     margin-bottom: 5px;
   }
@@ -69,15 +69,14 @@
   line-height: 21px;
 }
 
-@media  screen and (max-width: 550px) {
-  .contact-form__field label  {
+@media screen and (max-width: 550px) {
+  .contact-form__field label {
     font-size: 12px;
     line-height: 17px;
   }
 }
 
 .contact-form__field input {
-
   margin: 0;
   margin-bottom: 10px;
   padding: 0;
@@ -90,7 +89,7 @@
   border-radius: 10px;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__field input {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -118,7 +117,7 @@
   line-height: 21px;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__question label {
     font-size: 12px;
     line-height: 17px;
@@ -140,7 +139,7 @@
   border-radius: 10px;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__question textarea {
     height: 104px;
     padding-top: 17px;
@@ -165,32 +164,28 @@
   padding-left: 28px;
   padding-right: 28px;
 
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
   background-color: transparent;
   border: 3px solid #282828;
   cursor: pointer;
   border-radius: 10px;
-  box-shadow:
-  0 0 0 3px #ece4d9,
-  0 0 0 4px rgba(40, 40, 40, 0.5);
+  box-shadow: 0 0 0 3px #ece4d9, 0 0 0 4px rgba(40, 40, 40, 0.5);
 }
 
 .contact-form__button:hover,
 .contact-form__button:active {
-  box-shadow:
-  0 0 0 3px #ece4d9,
-  0 0 0 4px #282828;
+  box-shadow: 0 0 0 3px #ece4d9, 0 0 0 4px #282828;
 }
 
 .contact-form__button span {
-  font-family: "Gerbera", "Arial" ,sans-serif;
+  font-family: "Gerbera", "Arial", sans-serif;
   font-size: 24px;
   line-height: 32px;
 
   text-transform: uppercase;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__button span {
     font-size: 18px;
     line-height: 23px;
@@ -203,7 +198,7 @@
   line-height: 21px;
 }
 
-@media  screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .contact-form__consent {
     margin-top: 14px;
     font-size: 12px;
@@ -212,8 +207,8 @@
 }
 
 .contact-form__consent a {
-  transition: border-bottom .3s;
-  border-bottom: 1px dashed #CCCCCC;
+  transition: border-bottom 0.3s;
+  border-bottom: 1px dashed #cccccc;
 }
 
 .contact-form__consent a:hover,

@@ -48,19 +48,19 @@
 
   &__item {
     position: relative;
-    font-family: "Gerbera", "Arial" ,sans-serif;
+    font-family: "Gerbera", "Arial", sans-serif;
     font-weight: 600;
-    font-size: 24px!important;
+    font-size: 24px !important;
     line-height: 1.25;
     color: $color-default-black;
 
-     @media screen and (max-width: 800px) {
-       font-size: 20px!important;
-     }
+    @media screen and (max-width: 800px) {
+      font-size: 20px !important;
+    }
 
-     @media screen and (max-width: 480px) {
-       font-size: 18px!important;
-     }
+    @media screen and (max-width: 480px) {
+      font-size: 18px !important;
+    }
 
     &:not(:last-of-type) {
       margin-bottom: 20px;
@@ -96,7 +96,7 @@
       cursor: pointer;
 
       &:after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: -5px;
@@ -104,7 +104,7 @@
         height: 1px;
         background-color: $color-default-black;
         opacity: 0.3;
-        transition: opacity .3s;
+        transition: opacity 0.3s;
       }
     }
   }
@@ -119,20 +119,19 @@
   }
 }
 
-
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .slider-menu__slider-container {
     max-width: 100%;
   }
 }
 
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .slider-menu__slider-container .swiper-slide-active {
     max-width: 100%;
   }
 }
 
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .slider-menu__slider-container .swiper-slide-active img {
     max-width: 100%;
     width: 100%;

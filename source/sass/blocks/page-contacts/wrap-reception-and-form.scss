@@ -1,25 +1,23 @@
-
 .wrap-reception-and-form {
   display: flex;
   padding-top: 65px;
   padding-bottom: 2px;
 }
 
-@media  screen and (max-width: 1351px) {
+@media screen and (max-width: 1351px) {
   .wrap-reception-and-form {
     margin: 0 auto;
   }
 }
 
-@media  screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .wrap-reception-and-form {
     flex-direction: column;
   }
 }
 
-@media  screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .wrap-reception-and-form {
     padding-top: 42px;
   }
 }
-
